@@ -14,7 +14,7 @@ export function Navbar() {
  <nav className="flex fixed top-0 left-0 w-full z-50 justify-between items-center bg-[#8CA9FF] px-6 py-2 shadow-md rounded-xl">
 
   
-      <NavLink to="/" className="flex items-center gap-2">
+      <div className="flex items-center gap-2">
         <img
           src={logo}
           alt="Dev-Orbit Logo"
@@ -23,7 +23,7 @@ export function Navbar() {
         <span className="text-2xl font-bold ">
           Dev-Orbit
         </span>
-      </NavLink>
+      </div>
 
      
       <div className="flex gap-4">

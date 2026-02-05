@@ -3,7 +3,7 @@ import { Navbar } from "../Component/Navbar";
 import { Navigate } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import fullstact from "./../Images/fullstact.png";
-
+import { Footer } from "../Component/Footer";
 
 
 function Home() {
@@ -64,7 +64,7 @@ function Home() {
 
 </div>
 
-
+<Footer/>
     </div>
   );
 }
