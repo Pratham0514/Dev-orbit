@@ -58,15 +58,10 @@ function Home() {
     </li>
   ))}
 </ul>
-
   </div>
   </div>
- 
-
-
 
 </div>
-
 <Footer/>
     </div>
   );
