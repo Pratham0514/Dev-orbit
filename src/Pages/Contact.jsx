@@ -2,7 +2,7 @@ import React from 'react'
 import { Navbar } from '../Component/Navbar'
 import { Footer } from "../Component/Footer";
 import {Headline1,description,Headline2} from '../Config/Contactus'
-import Contactus from './../images/contactus.svg'
+
 function Contact() {
   return (
  <div className="pt-20 p-1 text-center">
@@ -21,11 +21,7 @@ function Contact() {
 
   {/* Image Section */}
   <div className="w-full md:w-[65%] flex justify-center items-center">
-    <img
-      src={Contactus}
-      alt="Contact us"
-      className="w-[80%] h-auto rounded-[40px] "
-    />
+    {/*image */}
   </div>
 
   {/* Form Section */}
