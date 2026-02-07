@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Coursecard({id,name,Image,oldPrice,price,duration,description}) {
+function Coursecard({id,name,cimage,oldPrice,price,duration,description}) {
 
   return (
    <div className="border-2 border-[#ec7805] mx-auto  mb-5 mt-5 mr-1
@@ -12,9 +12,9 @@ function Coursecard({id,name,Image,oldPrice,price,duration,description}) {
                   overflow-hidden 
                   flex items-center justify-center ">
     
-    {Image ? (
+    {cimage ? (
       <img
-        src={Image}
+        src={cimage}
         alt={name}
         className="w-[100%] h-[90%] object-cover"
       />

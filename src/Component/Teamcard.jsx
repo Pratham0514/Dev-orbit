@@ -1,11 +1,11 @@
 import React from "react";
 
-function Teamcard({ img, name, role, description }) {
+function Teamcard({ pimage, name, role, description }) {
   return (
     <div className="border-2 border-[#ec7805] bg-[#FFF8DE] w-[220px] p-4 rounded-xl text-center ml-[3%] mx-auto">
-      {img ? (
+      {pimage ? (
         <img
-          src={img}
+          src={pimage}
           alt={name}
           className="w-20 h-20 mx-auto rounded-full mb-3 "
         />

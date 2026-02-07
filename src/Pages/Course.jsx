@@ -12,13 +12,13 @@ function Course() {
 
       <div className='mb-2 flex flex-wrap Spaced-x-2'>
           {Items.map((items) => {
-            const {  name, Image, oldPrice,price, duration, description } = items;
+            const {  name, cimage, oldPrice,price, duration, description } = items;
 
          return (
             <Coursecard 
     
                   name={name}
-                  Image={Image}
+                  cimage={cimage}
                   oldPrice={oldPrice}
                   price={price}
                   duration={duration}

@@ -1,4 +1,4 @@
-import loginimg from "./../Images/Login.png";
+import loginimg from "./../images/Login.png";
 
 const loginimage = loginimg ;
 

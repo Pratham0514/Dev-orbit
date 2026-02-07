@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import logo from "./../Images/Main-logo-1.png";
+import logo from "./../images/Main-logo-1.png";
 
 export function Footer() {
   const activeClass =

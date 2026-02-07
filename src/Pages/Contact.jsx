@@ -2,7 +2,7 @@ import React from 'react'
 import { Navbar } from '../Component/Navbar'
 import { Footer } from "../Component/Footer";
 import {Headline1,description,Headline2} from './../Config/Contactus'
-import Contactus from './../Images/contactus.svg'
+import Contactus from './../images/contactus.svg'
 function Contact() {
   return (
  <div className="pt-20 p-1 text-center">

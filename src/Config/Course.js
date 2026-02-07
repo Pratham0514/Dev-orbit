@@ -14,7 +14,7 @@ const Items = [
   {
     id: 1,
     name: "Full Stack",
-    Image: FullStack,
+    cimage: FullStack,
     oldPrice: "15000",
     price: "10000",
     duration: "3 Months",
@@ -24,7 +24,7 @@ const Items = [
   {
     id: 2,
     name: "Front End",
-    Image: FrontEnd,
+    cimage: FrontEnd,
     oldPrice: "12000",
     price: "8000",
     duration: "2 Months",
@@ -34,7 +34,7 @@ const Items = [
   {
     id: 3,
     name: "Back End",
-    Image:  BackEnd,
+    cimage:  BackEnd,
     oldPrice: "12000",
     price: "8000",
     duration: "2 Months",
@@ -44,7 +44,7 @@ const Items = [
   {
     id: 4,
     name: "UI/UX",
-    Image: UiUx,
+    cimage: UiUx,
     oldPrice: "10000",
     price: "6000",
     duration: "1 Month",
@@ -54,7 +54,7 @@ const Items = [
   {
     id: 5,
     name: "Data Science",
-    Image: DataScience,
+    cimage: DataScience,
     oldPrice: "12000",
     price: "8000",
     duration: "2 Months",
@@ -64,7 +64,7 @@ const Items = [
   {
     id: 6,
     name: "Cyber Security",
-    Image: CyberSecurity,
+    cimage: CyberSecurity,
     oldPrice: "10000",
     price: "6000",
     duration: "1 Month",
@@ -74,7 +74,7 @@ const Items = [
   {
     id: 7,
     name: "Machine Learning",
-    Image: MachineLearning,
+    cimage: MachineLearning,
     oldPrice: "12000",
     price: "8000",
     duration: "2 Months",
@@ -84,7 +84,7 @@ const Items = [
   {
     id: 8,
     name: "Artificial Intelligence",
-    Image:  Ai,
+    cimage:  Ai,
     oldPrice: "12000",
     price: "8000",
     duration: "2 Months",
@@ -94,7 +94,7 @@ const Items = [
   {
     id: 9,
     name: "Blockchain",
-    Image: Blockchain,
+    cimage: Blockchain,
     oldPrice: "10000",
     price: "6000",
     duration: "1 Month",
@@ -104,7 +104,7 @@ const Items = [
   {
     id: 10,
     name:  "Cloud-computing",
-    Image: CloudComputing,
+    cimage: CloudComputing,
     oldPrice: "10000",
     price: "6000",
     duration: "1 Month",

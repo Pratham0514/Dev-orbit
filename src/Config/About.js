@@ -19,11 +19,11 @@ const Description4="We help students learn through practical, project-based lear
 
 const Headline5="Our Team";
 const TeamMembers = [
-  {id:1, name: "John Doe", role: "CEO", image:null ,description:"qwer" },
-  {id:2, name: "Jane Smith", role: "CTO", image:null ,description:"zxcv" },
-  {id:3, name: "Bob Johnson", role: "CFO", image:null ,description:"lkjh" },
-  {id:4, name: "Alice Brown", role: "COO", image:null ,description:"asdf" },
-  {id:5, name: "Mark Davis", role: "CIO", image:null ,description:"qwer" },
+  {id:1, name: "John Doe", role: "CEO", pimage:null ,description:"qwer" },
+  {id:2, name: "Jane Smith", role: "CTO", pimage:null ,description:"zxcv" },
+  {id:3, name: "Bob Johnson", role: "CFO", pimage:null ,description:"lkjh" },
+  {id:4, name: "Alice Brown", role: "COO", pimage:null ,description:"asdf" },
+  {id:5, name: "Mark Davis", role: "CIO", pimage:null ,description:"qwer" },
 ];
 
 export {Headline,Description,Description2,Headline2,Description3,Headline3,Description4,Headline4,Headline5,TeamMembers};

@@ -5,7 +5,7 @@ import {Headline,Description,Description2,Headline2,Description3,Headline3,Descr
 import Teamcard from '../Component/Teamcard'
 import { Reviews,Headline6 } from '../Config/Review';
 import Reviewcard from '../Component/Reviewcard'
-import whyus from "./../Images/whyus.png";
+import whyus from "./../images/whyus.png";
 function About() {
   return (
   <div>
