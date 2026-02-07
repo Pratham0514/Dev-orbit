@@ -3,7 +3,7 @@ import { Navbar } from '../Component/Navbar'
 import { Footer } from "../Component/Footer";
 import {Items , Headline} from './../Config/Course'
 import Coursecard from '../Component/Coursecard'
-import FullStack from "./../Images/Full-Stack.png";
+
 function Course() {
   return (
    <div className="pt-20 p-1 text-center">

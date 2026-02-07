@@ -1,7 +1,7 @@
 import React from 'react'
 import { Navbar } from '../Component/Navbar'
 import { useNavigate } from 'react-router-dom'
-import { Signimage,headline1,headline3,headline4 } from '../Config/Login'
+import { loginimage,headline1,headline3,headline4 } from '../Config/Login'
 function Login() {
   const navigate = useNavigate();
   return (
@@ -22,7 +22,7 @@ function Login() {
          <p>Don't have an account? <button className='text-[blue] mb-2'onClick={()=>navigate("/signin")} >Sign Up</button></p>
         </div>
         <div className=' w-[60%] rounded-[40px]'>
-            <img src={Signimage} alt="Signin" className="w-[90%] h-[100%] mx-auto rounded-[40px]" />
+            <img src={loginimage} alt="Signin" className="w-[90%] h-[100%] mx-auto rounded-[40px]" />
         </div>
       </div>
         
