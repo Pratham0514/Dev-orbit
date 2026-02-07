@@ -1,5 +1,5 @@
 import React from 'react'
-import FullStack from "./../Images/Full-Stack.png";
+
 function Coursecard({id,name,Image,oldPrice,price,duration,description}) {
 
   return (
