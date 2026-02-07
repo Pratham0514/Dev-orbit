@@ -1,7 +1,7 @@
 import React from 'react'
 import { Navbar } from '../Component/Navbar'
 import { Footer } from "../Component/Footer";
-import {Headline1,description,Headline2} from './../Config/Contactus'
+import {Headline1,description,Headline2} from '../Config/Contactus'
 import Contactus from './../images/contactus.svg'
 function Contact() {
   return (
