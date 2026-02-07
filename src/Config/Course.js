@@ -3,7 +3,7 @@ import FullStack from "./../Images/Full-Stack.png";
 import FrontEnd from "./../Images/Front-End.png";
 import BackEnd from "./../Images/Back-End.png";
 import UiUx from "./../Images/ui-ux.png";
-import DataScience from "./../Images/Data-science.png";
+import DataScience from "./../Images/Data-Science.png";
 import CyberSecurity from "./../Images/cyber-security.png";
 import MachineLearning from "./../Images/machine-learning.png";
 import Blockchain from "./../Images/blockchain.png";
