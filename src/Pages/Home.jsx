@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar } from "../Component/Navbar"; 
 import { Navigate } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-import fullstact from "./../Images/fullstact.png";
+import fullstact from "./../Images/Full-Stack.png";
 import { Footer } from "../Component/Footer";
 import { Headline1,Headline2,Headline3,Headline4,Headline5,Headline6,Description,Descriptioncontant,oldPrice,price,Validity,ValidityTime,DescriptionList } from "../Config/Home";
 

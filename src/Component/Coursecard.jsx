@@ -1,22 +1,22 @@
 import React from 'react'
-
+import FullStack from "./../Images/Full-Stack.png";
 function Coursecard({id,name,Image,oldPrice,price,duration,description}) {
 
   return (
    <div className="border-2 border-[#ec7805] mx-auto  mb-5 mt-5 mr-1
-                rounded-[40px] flex pb-2 bg-[#FFF8DE] w-[48%] 
-                shadow-lg gap-6 gap-x-2">
+                rounded-[40px] flex pb-2 bg-[#FFF8DE] w-[49%] 
+                shadow-lg gap-6 gap-x-1">
 
   {/* Image Section */}
-  <div className="w-[49%] ml-3 mt-5 rounded-[40px] 
-                  border-2 border-[#ec7805] overflow-hidden 
-                  flex items-center justify-center bg-[#FFF2C6]">
+  <div className="w-[50%] ml-3 mt-5 rounded-[40px] 
+                  overflow-hidden 
+                  flex items-center justify-center ">
     
     {Image ? (
       <img
         src={Image}
         alt={name}
-        className="w-full h-full object-cover"
+        className="w-[100%] h-[90%] object-cover"
       />
     ) : (
       <p className="text-gray-500 text-lg font-semibold">
@@ -26,7 +26,7 @@ function Coursecard({id,name,Image,oldPrice,price,duration,description}) {
   </div>
 
   {/* Content Section */}
-  <div className="w-[49%]  mt-5 rounded-[40px] 
+  <div className="w-[45%]  mt-5 rounded-[40px] 
                 p-5 
                   flex flex-col justify-between">
 

@@ -58,25 +58,26 @@ export function Footer() {
         <p className="mb-2 text-center text-xl font-bold">Contact Us</p>
 
         <label htmlFor="email" className="font-semibold">
-          📩 Email :
+         
         </label>
         <a
           id="email"
-          href="mailto:booksGarden@gmail.com"
+          href="mailto:
+          Devorbit@gmail.com"
           className="text-blue-600 block"
         >
-          booksGarden@gmail.com
+         <span className="text-black">📩 Email :</span>  Devorbit@gmail.com
         </a>
 
         <label htmlFor="phone" className="font-semibold">
-          ☎️ Phone :
+         
         </label>
         <a
           id="phone"
           href="tel:+919834673813"
           className="text-blue-600 block"
         >
-          +91 9834673813
+          <span className="text-black"> ☎️ Phone :</span> +91 9834673813
         </a>
 
         <p className="font-semibold mt-2">

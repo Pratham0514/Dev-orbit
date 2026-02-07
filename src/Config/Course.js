@@ -1,8 +1,20 @@
+import React from 'react'
+import FullStack from "./../Images/Full-Stack.png";
+import FrontEnd from "./../Images/Front-End.png";
+import BackEnd from "./../Images/Back-End.png";
+import UiUx from "./../Images/ui-ux.png";
+import DataScience from "./../Images/data-science.png";
+import CyberSecurity from "./../Images/cyber-security.png";
+import MachineLearning from "./../Images/machine-learning.png";
+import Blockchain from "./../Images/blockchain.png";
+import CloudComputing from "./../Images/cloud-computing.png";
+import Ai from "./../Images/AI.png";
+
 const Items = [
   {
     id: 1,
     name: "Full Stack",
-    Image: "",
+    Image: FullStack,
     oldPrice: "15000",
     price: "10000",
     duration: "3 Months",
@@ -12,7 +24,7 @@ const Items = [
   {
     id: 2,
     name: "Front End",
-    Image: "",
+    Image: FrontEnd,
     oldPrice: "12000",
     price: "8000",
     duration: "2 Months",
@@ -22,7 +34,7 @@ const Items = [
   {
     id: 3,
     name: "Back End",
-    Image: "",
+    Image:  BackEnd,
     oldPrice: "12000",
     price: "8000",
     duration: "2 Months",
@@ -32,7 +44,7 @@ const Items = [
   {
     id: 4,
     name: "UI/UX",
-    Image: "",
+    Image: UiUx,
     oldPrice: "10000",
     price: "6000",
     duration: "1 Month",
@@ -42,7 +54,7 @@ const Items = [
   {
     id: 5,
     name: "Data Science",
-    Image: "",
+    Image: DataScience,
     oldPrice: "12000",
     price: "8000",
     duration: "2 Months",
@@ -52,7 +64,7 @@ const Items = [
   {
     id: 6,
     name: "Cyber Security",
-    Image: "",
+    Image: CyberSecurity,
     oldPrice: "10000",
     price: "6000",
     duration: "1 Month",
@@ -62,7 +74,7 @@ const Items = [
   {
     id: 7,
     name: "Machine Learning",
-    Image: "",
+    Image: MachineLearning,
     oldPrice: "12000",
     price: "8000",
     duration: "2 Months",
@@ -72,7 +84,7 @@ const Items = [
   {
     id: 8,
     name: "Artificial Intelligence",
-    Image: "",
+    Image:  Ai,
     oldPrice: "12000",
     price: "8000",
     duration: "2 Months",
@@ -82,7 +94,7 @@ const Items = [
   {
     id: 9,
     name: "Blockchain",
-    Image: "",
+    Image: Blockchain,
     oldPrice: "10000",
     price: "6000",
     duration: "1 Month",
@@ -91,8 +103,8 @@ const Items = [
   },
   {
     id: 10,
-    name: "Cloud Computing",
-    Image: "",
+    name:  "Cloud-computing",
+    Image: CloudComputing,
     oldPrice: "10000",
     price: "6000",
     duration: "1 Month",
