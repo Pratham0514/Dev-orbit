@@ -2,7 +2,7 @@ import React from 'react'
 import { Navbar } from '../Component/Navbar'
 import { useNavigate } from 'react-router-dom'
 import { headline1,headline3,headline4 } from '../Config/Signin'
-import signinImg from '../images/Signin.png';
+import signinImg from '../assets/Signin.png';
 
 function Signin() {
 

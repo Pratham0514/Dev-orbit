@@ -1,14 +1,14 @@
 import React from 'react'
-import FullStack from "./../images/full-stack.png";
-import FrontEnd from "./../images/front-end.png";
-import BackEnd from "./../images/back-end.png";
-import UiUx from "./../images/ui-ux.png";
-import DataScience from "./../images/data-science.png";
-import CyberSecurity from "./../images/cyber-security.png";
-import MachineLearning from "./../images/machine-learning.png";
-import Blockchain from "./../images/blockchain.png";
-import CloudComputing from "./../images/cloud-computing.png";
-import Ai from "./../images/ai.png";
+import FullStack from "../assets/full-stack.png";
+import FrontEnd from "../assets/front-end.png";
+import BackEnd from "../assets/back-end.png";
+import UiUx from "../assets/ui-ux.png";
+import DataScience from "../assets/data-science.png";
+import CyberSecurity from "../assets/cyber-security.png";
+import MachineLearning from "../assets/machine-learning.png";
+import Blockchain from "../assets/blockchain.png";
+import CloudComputing from "../assets/cloud-computing.png";
+import Ai from "../assets/ai.png";
 
 const Items = [
   {

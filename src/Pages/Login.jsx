@@ -1,7 +1,8 @@
 import React from 'react'
 import { Navbar } from '../Component/Navbar'
 import { useNavigate } from 'react-router-dom'
-import { loginimage,headline1,headline3,headline4 } from '../Config/Login'
+import { headline1,headline3,headline4 } from '../Config/Login'
+import loginimage from '../assets/Login.png';
 function Login() {
   const navigate = useNavigate();
   return (
