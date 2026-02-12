@@ -4,6 +4,7 @@ import { Footer } from "../Component/Footer";
 import {Headline1,description,Headline2} from '../Config/Contactus'
 import service from "../images/service.png";
 
+
 function Contact() {
   return (
  <div className="pt-20 p-1 text-center">
