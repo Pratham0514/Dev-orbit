@@ -1,0 +1,9 @@
+
+
+
+const headline1="Create  your account";
+const headline3="Hello Friend, Welcome to Dev-Orbit";
+const headline4="Hey , Welcome to Your special place";
+
+
+export {headline1,headline3,headline4};

@@ -10,6 +10,7 @@ import Course from './Pages/Course.jsx'
 import Contact from './Pages/Contact.jsx'
 import Login from './Pages/Login.jsx'
 import Signin from './Pages/Signin.jsx'
+import Form from './Pages/Form.jsx';
 
 createRoot(document.getElementById('root')).render(
  <BrowserRouter>
@@ -19,6 +20,7 @@ createRoot(document.getElementById('root')).render(
       <Route path="about" element={<About />}/>
       <Route path="course" element={<Course />}/>
       <Route path="contact" element={<Contact />}/>
+      <Route path="form/:id" element={<Form />}/>
       <Route path="login" element={<Login />}/>
       <Route path="signin" element={<Signin />}/>
     </Routes>

@@ -28,7 +28,7 @@ export function Footer() {
         </p>
       </div>
 
-      {/* Quick Links */}
+  
       <div className="w-[200px] text-center">
         <p className="mb-2 text-xl font-bold">Quick Links</p>
 

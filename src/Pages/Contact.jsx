@@ -2,7 +2,7 @@ import React from 'react'
 import { Navbar } from '../Component/Navbar'
 import { Footer } from "../Component/Footer";
 import {Headline1,description,Headline2} from '../Config/Contactus'
-
+import Srvice from './../images/Service.png'
 function Contact() {
   return (
  <div className="pt-20 p-1 text-center">
@@ -16,12 +16,9 @@ function Contact() {
         <div className="flex flex-col md:flex-row w-[70%] mx-auto 
   mt-[3%] mb-[4%] p-4 rounded-[40px] 
  ">
-  
-
-
-  {/* Image Section */}
+ 
   <div className="w-full md:w-[65%] flex justify-center items-center">
-    {/*image */}
+   <img src={Srvice} alt="Service" className="w-[75%] rounded-[40px]" />
   </div>
 
   {/* Form Section */}

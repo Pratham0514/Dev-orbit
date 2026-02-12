@@ -1,13 +1,14 @@
 import React from 'react'
-
+import { NavLink } from 'react-router-dom'
 function Coursecard({id,name,cimage,oldPrice,price,duration,description}) {
+
 
   return (
    <div className="border-2 border-[#ec7805] mx-auto  mb-5 mt-5 mr-1
                 rounded-[40px] flex pb-2 bg-[#FFF8DE] w-[49%] 
                 shadow-lg gap-6 gap-x-1">
 
-  {/* Image Section */}
+ 
   <div className="w-[50%] ml-3 mt-5 rounded-[40px] 
                   overflow-hidden 
                   flex items-center justify-center ">
@@ -25,13 +26,12 @@ function Coursecard({id,name,cimage,oldPrice,price,duration,description}) {
     )}
   </div>
 
-  {/* Content Section */}
+  
   <div className="w-[45%]  mt-5 rounded-[40px] 
                 p-5 
                   flex flex-col justify-between">
 
-    {/* ID hidden but structure kept */}
-    {/* <p>{id}</p> */}
+    
 
     <p className="text-4xl font-bold text-gray-600 text-left">
       {name}
@@ -58,10 +58,10 @@ function Coursecard({id,name,cimage,oldPrice,price,duration,description}) {
       ⏱Duration : {duration}
     </p>
 
-    <button className="p-3 mt-3 px-6 border-2 border-[#F2A65A] border-solid bg-[#000000] text-white rounded-full hover:bg-[#F2A65A] " >
+    <NavLink to={`/form/${id}`} className="p-3 mt-3 px-6 border-2 border-[#F2A65A] border-solid bg-[#000000] text-white rounded-full hover:bg-[#F2A65A] " >
       Enroll Now
       <span className=" pl-2">🌐</span>
-    </button>
+    </NavLink>
   </div>
 </div>
   )
