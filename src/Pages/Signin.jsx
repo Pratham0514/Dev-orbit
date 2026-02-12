@@ -2,7 +2,8 @@ import React from 'react'
 import { Navbar } from '../Component/Navbar'
 import { useNavigate } from 'react-router-dom'
 import { headline1,headline3,headline4 } from '../Config/Signin'
-import Siginimg from './../images/Signin.png'
+import sign from "../images/Signin.png";
+
 function Signin() {
 
  const navigate = useNavigate();
@@ -25,7 +26,7 @@ function Signin() {
           <p> have an account? <button className='text-[blue] mb-2 'onClick={()=>navigate("/login")} >Login</button></p>
          </div>
          <div className=' w-[60%] rounded-[40px]'>
-             <img src={Siginimg} alt="Signin" className="w-[90%] h-[100%] mx-auto rounded-[40px]" />
+             <img src={sign} alt="Signin" className="w-[90%] h-[100%] mx-auto rounded-[40px]" />
          </div>
        </div>
          
