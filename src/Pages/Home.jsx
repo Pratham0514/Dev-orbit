@@ -2,7 +2,8 @@ import React from "react";
 import { Navbar } from "../Component/Navbar"; 
 import { Navigate } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-import Fullstact from "./../images/Full-Stack.png";
+import fullstack from "../images/full-stack.png";
+
 import { Footer } from "../Component/Footer";
 import { Headline1,Headline2,Headline3,Headline4,Headline5,Headline6,Description,Descriptioncontant,oldPrice,price,Validity,ValidityTime,DescriptionList } from "../Config/Home";
 
@@ -29,7 +30,7 @@ function Home() {
 
 <div className="w-[80%] border-2 border-[#ec7805] mx-auto mb-20 mt-5 rounded-[40px] flex pb-5 bg-[#FFF8DE]">
   <div className="w-[45%]  ml-8 mt-5 rounded-[40px]">
-        <img src={Fullstact} alt="Full stack" className="w-[100%] h-[100%] rounded-[40px]" />
+        <img src={fullstack} alt="Full stack" className="w-[100%] h-[100%] rounded-[40px]" />
   </div>
   <div className="w-[50%]  ml-8 mt-5 ">
     <h1 className="text-4xl font-bold text-gray-600 p-2">{Headline4}</h1><br></br>
