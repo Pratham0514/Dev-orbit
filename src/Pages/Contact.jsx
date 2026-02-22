@@ -2,7 +2,7 @@ import React from 'react'
 import { Navbar } from '../Component/Navbar'
 import { Footer } from "../Component/Footer";
 import {Headline1,description,Headline2} from '../Config/Contactus'
-import service from "./../assets/service.png";
+import service from "./../assets/Service.png";
 
 
 function Contact() {
