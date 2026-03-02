@@ -6,15 +6,20 @@ import Coursecard from '../Component/Coursecard'
 
 function Course() {
   return (
-    <div className="pt-20 p-1 text-center">
+    <div className="pt-20 px-4 text-center">
+      
       <Navbar />
 
-      <h1 className="text-4xl mt-4 mb-3 text-gray-600 font-bold">
+      {/* Heading */}
+      <h1 className="text-2xl md:text-4xl mt-6 mb-6 text-gray-600 font-bold">
         "{Headline}"
       </h1>
 
-    
-      <div className="mb-2 flex flex-wrap gap-4 justify-center">
+      {/* Course Cards Container */}
+      <div className="mb-10 
+                      flex flex-wrap 
+                      justify-center 
+                      gap-6">
         {Items.map((item) => {
           return (
             <Coursecard
@@ -32,6 +37,7 @@ function Course() {
       </div>
 
       <Footer />
+
     </div>
   )
 }

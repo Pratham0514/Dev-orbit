@@ -11,22 +11,25 @@ export function Navbar() {
 
   return (
     
- <nav className="flex fixed top-0 left-0 w-full z-50 justify-between items-center bg-[#8CA9FF] px-6 py-2 shadow-md rounded-xl">
+ <nav className="flex flex-col md:flex-row fixed top-0 left-0 w-full z-50 
+                justify-between items-center 
+                bg-[#8CA9FF] px-4 md:px-6 py-3 
+                shadow-md rounded-xl gap-3 md:gap-0">
 
   
       <div className="flex items-center gap-2">
         <img
           src={logo}
           alt="Dev-Orbit Logo"
-          className="w-14 h-14 rounded-full"
+          className="w-12 h-12 md:w-14 md:h-14 rounded-full"
         />
-        <span className="text-2xl font-bold ">
+        <span className="text-xl md:text-2xl font-bold">
           Dev-Orbit
         </span>
       </div>
 
      
-      <div className="flex gap-4">
+      <div className="flex flex-wrap justify-center gap-2 md:gap-4">
         <NavLink to="/" end className={({ isActive }) =>
           isActive ? activeClass : inactiveClass
         }>
@@ -52,7 +55,7 @@ export function Navbar() {
         </NavLink>
       </div>
 
-      <div className="flex gap-4">
+      <div className="flex gap-2 md:gap-4">
         <NavLink
           to="/login"
           className="hover:bg-[#e9cbad] px-4 py-1 rounded-xl transition"

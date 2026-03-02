@@ -1,34 +1,76 @@
-import React from 'react'
-import { Navbar } from '../Component/Navbar'
-import { useNavigate } from 'react-router-dom'
-import { headline1,headline3,headline4 } from '../Config/Login'
-import loginimage from './../assets/Login.png';
+import React from "react";
+import { Navbar } from "../Component/Navbar";
+import { useNavigate } from "react-router-dom";
+import { headline1, headline3, headline4 } from "../Config/Login";
+import loginimage from "./../assets/Login.png";
+
 function Login() {
   const navigate = useNavigate();
+
   return (
-  <div className="pt-20 p-1 text-center">
-      <Navbar/>
-      <h1 className="text-5xl font-bold mt-[1%] text-gray-600">{headline1}</h1>
+    <div className="pt-24 px-4 text-center">
+      <Navbar />
 
-      <div className='border-2 border-balck rounded-[40px] border-dashed flex flex-warp w-[60%] mx-auto p-2  mt-[2%] '>
-        <div className=' w-[50%]'>
-            <h1  className="text-6xl pt-8 text-gray-600 font-bold">{headline3}</h1>
-          <h1 className="text-1xl pt-1 text-gray-600 font-bold">{headline4}</h1>
+      <h1 className="text-2xl md:text-5xl font-bold text-gray-600">
+        {headline1}
+      </h1>
 
-        <form>
-          <input type="text" placeholder="Email" className='border-2 border-balck mt-5  p-2 w-[80%] rounded-[40px]' />
-          <input type="password" placeholder="Password" className='border-2 border-balck mt-3 mb-5 p-2 w-[80%] rounded-[40px]' />
-          <button type="submit" className='border-2 border-balck mt-3 mb-5 p-2 w-[80%] bg-[#000000] rounded-[40px] text-white hover:bg-[#F2A65A]'>Login</button>
-        </form>
-         <p>Don't have an account? <button className='text-[blue] mb-2'onClick={()=>navigate("/signin")} >Sign Up</button></p>
+      <div className="max-w-5xl mx-auto mt-10 border-2 border-black border-dashed rounded-3xl p-6 flex flex-col md:flex-row items-center gap-8">
+
+        {/* Left Side - Form */}
+        <div className="w-full md:w-1/2">
+          <h2 className="text-3xl md:text-5xl text-gray-600 font-bold">
+            {headline3}
+          </h2>
+
+          <p className="text-gray-600 font-semibold mt-2">
+            {headline4}
+          </p>
+
+          <form className="mt-6 flex flex-col items-center gap-4">
+            <input
+              type="text"
+              placeholder="Email"
+              className="border-2 border-black p-3 w-full rounded-full"
+            />
+
+            <input
+              type="password"
+              placeholder="Password"
+              className="border-2 border-black p-3 w-full rounded-full"
+            />
+
+            <button
+              type="submit"
+              className="w-full p-3 bg-black text-white rounded-full hover:bg-[#F2A65A] transition"
+            >
+              Login
+            </button>
+          </form>
+
+          <p className="mt-4">
+            Don't have an account?{" "}
+            <button
+              className="text-blue-600 font-semibold hover:underline"
+              onClick={() => navigate("/signin")}
+            >
+              Sign Up
+            </button>
+          </p>
         </div>
-        <div className=' w-[60%] rounded-[40px]'>
-            <img src={loginimage} alt="Signin" className="w-[90%] h-[100%] mx-auto rounded-[40px]" />
+
+        {/* Right Side - Image */}
+        <div className="w-full md:w-1/2">
+          <img
+            src={loginimage}
+            alt="Login"
+            className="w-full max-w-md mx-auto rounded-3xl"
+          />
         </div>
+
       </div>
-        
-      </div>
-  )
+    </div>
+  );
 }
 
-export default Login
+export default Login;

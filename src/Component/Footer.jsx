@@ -9,15 +9,18 @@ export function Footer() {
     "text-gray-800 px-4 py-1 rounded-xl transition hover:bg-[#e9cbad]";
 
   return (
-    <footer className="flex flex-wrap justify-between bg-[#E8E2D8] px-6 py-6 shadow-inner text-gray-700">
+    <footer className="flex flex-col md:flex-row flex-wrap 
+                   justify-between items-start md:items-start 
+                   bg-[#E8E2D8] px-6 py-8 
+                   shadow-inner text-gray-700 gap-8">
       
       {/* Logo and Info */}
-      <div className="flex flex-col items-start gap-2 w-[400px]">
+      <div className="flex flex-col items-start gap-2 w-full md:w-[400px]">
         <div className="flex items-center gap-2 mb-2">
           <img
             src={logo}
             alt="Dev-Orbit Logo"
-            className="w-14 h-14 rounded-full"
+          className="w-12 h-12 md:w-14 md:h-14 rounded-full"
           />
           <span className="text-2xl font-bold">Dev-Orbit</span>
         </div>
@@ -29,7 +32,7 @@ export function Footer() {
       </div>
 
   
-      <div className="w-[200px] text-center">
+    <div className="w-full md:w-[200px] text-left md:text-center">
         <p className="mb-2 text-xl font-bold">Quick Links</p>
 
         <div className="flex flex-col gap-2">
@@ -54,7 +57,7 @@ export function Footer() {
       </div>
 
       {/* Contact */}
-      <div className="w-[300px]">
+     <div className="w-full md:w-[300px]">
         <p className="mb-2 text-center text-xl font-bold">Contact Us</p>
 
         <label htmlFor="email" className="font-semibold">
