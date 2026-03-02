@@ -1,41 +1,41 @@
-import React from 'react'
-import { Navbar } from '../Component/Navbar'
+import React from "react";
+import { Navbar } from "../Component/Navbar";
 import { Footer } from "../Component/Footer";
-import { Headline, Description, Description2, Headline2, Description3, Headline3, Description4, Headline4, Headline5, TeamMembers } from './../Config/About'
-import Teamcard from '../Component/Teamcard'
-import { Reviews, Headline6 } from '../Config/Review';
-import Reviewcard from '../Component/Reviewcard'
-import whyus from "./../assets/whyus.png";
+import { AboutContent, TeamContent } from "../Config/About";
+import Teamcard from "../Component/Teamcard";
+import { Reviews, Headline6 } from "../Config/Review";
+import Reviewcard from "../Component/Reviewcard";
+import whyus from "../assets/whyus.png";
 
 function About() {
   return (
     <div>
-      
-      <div className="pt-20 px-4 text-center">
-        <Navbar />
+      <Navbar />
+
+      <div className="pt-24 px-4 text-center">
 
         {/* Main Headline */}
         <p className="text-2xl md:text-4xl mt-6 mb-5 text-gray-600 font-bold">
-          "{Headline}"
+          "{AboutContent.headline}"
         </p>
 
         {/* Main Description */}
         <div className="w-[95%] md:w-[70%] mx-auto p-4 rounded-[40px] bg-[#FFF8DE]">
           <p className="text-base md:text-xl text-gray-500 font-bold">
-            "{Description}"
+            "{AboutContent.description}"
           </p>
         </div>
 
         {/* Why Us Section */}
         <div className="w-[95%] md:w-[70%] mt-10 mx-auto">
           <h1 className="text-2xl md:text-4xl text-gray-600 font-bold mb-6">
-            {Headline2}
+            {AboutContent.differencesHeadline}
           </h1>
 
           <div className="flex flex-col md:flex-row gap-6 items-center">
 
             {/* Image */}
-            <div className="w-full md:w-1/2 flex items-center justify-center">
+            <div className="w-full md:w-1/2 flex justify-center">
               <img
                 src={whyus}
                 alt="Why Us"
@@ -46,7 +46,7 @@ function About() {
             {/* Points */}
             <div className="bg-white w-full md:w-1/2 p-6 rounded-2xl shadow-lg">
               <ul className="space-y-4 text-left">
-                {Description2.map((item, index) => (
+                {AboutContent.differences.map((item, index) => (
                   <li key={index} className="flex items-start gap-3">
                     <span className="text-[#F2A65A] text-xl">✔</span>
                     <span className="text-gray-700 font-medium">
@@ -60,47 +60,45 @@ function About() {
           </div>
         </div>
 
-        {/* Section 3 */}
+        {/* Vision Section */}
         <h1 className="text-2xl md:text-4xl text-gray-600 font-bold mb-6 mt-10">
-          {Headline3}
+          {AboutContent.visionHeadline}
         </h1>
 
         <div className="w-[95%] md:w-[70%] mx-auto p-4 rounded-[40px] bg-[#FFF8DE]">
-          <p className="text-base md:text-xl text-gray-500 font-bold">
-            "{Description3}"
-          </p>
+          {AboutContent.vision.map((item, index) => (
+            <p key={index} className="text-base md:text-xl text-gray-500 font-bold mb-3">
+              {item}
+            </p>
+          ))}
         </div>
 
-        {/* Section 4 */}
+        {/* Short Section */}
         <h1 className="text-2xl md:text-4xl text-gray-600 font-bold mb-6 mt-10">
-          {Headline4}
+          {AboutContent.compactHeadline}
         </h1>
 
         <div className="w-[95%] md:w-[70%] mx-auto p-4 rounded-[40px] bg-[#FFF8DE]">
           <p className="text-base md:text-xl text-gray-500 font-bold">
-            "{Description4}"
+            "{AboutContent.compactDescription}"
           </p>
         </div>
 
         {/* Team Section */}
         <h1 className="text-2xl md:text-4xl text-gray-600 font-bold mb-6 mt-10">
-          {Headline5}
+          {TeamContent.headline}
         </h1>
 
-        <div className="flex flex-wrap justify-center gap-4 mb-10">
-          {TeamMembers.map((item) => {
-            const { id, name, img, role, description } = item;
-            return (
-              <Teamcard
-                key={id}
-                id={id}
-                pimage={img}
-                name={name}
-                role={role}
-                description={description}
-              />
-            );
-          })}
+        <div className="flex flex-wrap justify-center gap-6 mb-10">
+          {TeamContent.members.map((item) => (
+            <Teamcard
+              key={item.id}
+              pimage={item.image}
+              name={item.name}
+              role={item.role}
+              description={item.description}
+            />
+          ))}
         </div>
 
         {/* Reviews Section */}
@@ -109,25 +107,21 @@ function About() {
         </h1>
 
         <div className="flex flex-wrap justify-center gap-4 mb-10">
-          {Reviews.map((item) => {
-            const { id, name, review, rating } = item;
-            return (
-              <Reviewcard
-                key={id}
-                id={id}
-                name={name}
-                review={review}
-                rating={rating}
-              />
-            );
-          })}
+          {Reviews.map((item) => (
+            <Reviewcard
+              key={item.id}
+              name={item.name}
+              review={item.review}
+              rating={item.rating}
+            />
+          ))}
         </div>
 
       </div>
 
       <Footer />
     </div>
-  )
+  );
 }
 
-export default About
+export default About;
