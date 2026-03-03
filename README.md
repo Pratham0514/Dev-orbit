@@ -1,13 +1,37 @@
-# React + Vite
+# 🚀 Dev-Orbit
 
+## 🌐 Live Demo
+👉 https://dev-orbit-kvgy.vercel.app/
 
-####link of host = "https://davorbit.netlify.app/"
+---
 
+## 📌 About Project
+**Dev-Orbit** is a modern web application built to provide users with a smooth and responsive experience.  
+The project focuses on clean UI design, fast performance, and interactive navigation.
 
-Header/navbar= #8CA9FF     bg-primary-200;
-Car = #FFF8DE;
-BUTTON = #f2a65a; #ec7805
-Background-color = rgb(255, 248, 222);
-FOOTER = #E8E2D8 ;
+This project can be used as a portfolio or learning-based development project.
 
-.........
+---
+
+## ✨ Features
+✅ Fully Responsive Design  
+✅ Modern User Interface  
+✅ Navigation System  
+✅ Interactive Sections  
+✅ Fast Loading Performance  
+✅ Portfolio Style Layout  
+✅ Mobile Friendly UI  
+
+---
+
+## 🛠️ Tech Stack
+- HTML5  
+- CSS3  
+- JavaScript  
+- React.js (if applicable)  
+- Tailwind CSS / Custom CSS  
+- Vercel Deployment  
+
+---
+
+## 📂 Project Structure
