@@ -19,7 +19,6 @@ function Reviewcard({ id, name, review, rating }) {
       );
     });
   };
-
   return (
     <div className="border-2 border-[#ec7805] bg-[#FFF8DE] w-[220px] p-5 rounded-xl text-center shadow-md hover:shadow-xl transition duration-300">
 

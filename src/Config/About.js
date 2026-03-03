@@ -42,39 +42,39 @@ export const TeamContent = {
 
   members: [
     {
-      id: 1,
-      name: "John Doe",
-      role: "CEO",
-      image: Boy1,
-      description: "Founder and visionary leader of the company.",
-    },
-    {
-      id: 2,
-      name: "Jane Smith",
-      role: "CTO",
-      image: Boy2,
-      description: "Leads the technical strategy and innovation.",
-    },
-    {
-      id: 3,
-      name: "Bob Johnson",
-      role: "CFO",
-      image: Girl1,
-      description: "Manages financial planning and operations.",
-    },
-    {
-      id: 4,
-      name: "Alice Brown",
-      role: "COO",
-      image: Girl2,
-      description: "Oversees daily business operations.",
-    },
-    {
-      id: 5,
-      name: "Mark Davis",
-      role: "CIO",
-      image: Boy1,
-      description: "Handles information systems and IT management.",
-    },
+  id: 1,
+  name: "John Doe",
+  role: "UI/UX Designer",
+  image: Boy1,
+  description: "Designs intuitive and user-friendly interfaces, creates wireframes and prototypes, and ensures an excellent user experience across web and mobile applications."
+},
+{
+  id: 2,
+  name: "Jane Smith",
+  role: "Full Stack Developer, Front End, Back End",
+  image: Boy2,
+  description: "Develops and maintains complete web applications, handling both frontend user interfaces and backend server logic, APIs, and database integration."
+},
+{
+  id: 3,
+  name: "Bob Johnson",
+  role: "Data Science, Cyber Security",
+  image: Girl1,
+  description: "Analyzes complex data to generate insights and implements security measures to protect systems, networks, and sensitive information from cyber threats."
+},
+{
+  id: 4,
+  name: "Alice Brown",
+  role: "Machine Learning, Artificial Intelligence",
+  image: Girl2,
+  description: "Builds intelligent systems using machine learning models and AI algorithms to automate processes, enhance decision-making, and improve business solutions."
+},
+{
+  id: 5,
+  name: "Mark Davis",
+  role: "Blockchain, Cloud Computing",
+  image: Boy1,
+  description: "Designs secure blockchain-based solutions and manages scalable cloud infrastructure to ensure high availability, performance, and data security."
+}
   ],
 };

@@ -89,7 +89,7 @@ function About() {
           {TeamContent.headline}
         </h1>
 
-        <div className="flex flex-wrap justify-center gap-6 mb-10">
+        <div className="flex flex-wrap justify-center gap-6 mb-10 md:gap-2">
           {TeamContent.members.map((item) => (
             <Teamcard
               key={item.id}
